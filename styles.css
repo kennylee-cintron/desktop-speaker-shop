@@ -1,0 +1,136 @@
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans&display=swap");
+:root {
+  font-size: 62.5%;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+body {
+  font-family: "Work Sans", sans-serif;
+  width: 50%;
+  margin: auto;
+  background-color: #dddddd;
+}
+main {
+  background-color: white;
+  height: 90vh;
+  margin-top: 3rem;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  font-size: 2rem;
+  padding: 3rem;
+}
+header div {
+  display: flex;
+  justify-content: space-evenly;
+}
+header div i {
+  text-align: center;
+  font-size: 2.2rem;
+}
+header div p {
+  padding-left: 1rem;
+}
+nav ul {
+  width: 50%;
+  list-style: none;
+  display: flex;
+}
+a {
+  padding: 0 1rem;
+}
+.first-sec {
+  width: 80%;
+  height: 20%;
+  margin: 8rem auto 7rem;
+}
+h1 {
+  font-size: 3rem;
+  margin-bottom: 2rem;
+}
+.first-sec p {
+  padding: 1.5rem 0;
+  font-size: 2.3rem;
+  position: relative;
+}
+button {
+  color: white;
+  background-color: black;
+  position: absolute;
+  right: 35%;
+  font-size: 1.3rem;
+  text-align: center;
+  text-transform: uppercase;
+  padding: 0.5rem;
+  margin: 3rem 0;
+}
+button i {
+  color: white;
+  font-size: 1.2rem;
+  margin-left: 0.5rem;
+}
+.second-sec {
+  display: flex;
+  justify-content: space-between;
+}
+h2 {
+  font-size: 2.5rem;
+  color: white;
+  text-shadow: 0px 0px 20px #474747;
+  display: inline;
+  position: absolute;
+  top: 18%;
+  left: 15%;
+}
+.second-sec div {
+  width: 300px;
+  height: 410px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  position: relative;
+}
+.second-sec div i {
+  font-size: 1.1rem;
+  height: 100%;
+  padding-top: 25%;
+}
+span {
+  background-color: white;
+  width: 2.6rem;
+  height: 2.6rem;
+  position: absolute;
+  bottom: 10%;
+  left: 10%;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  box-shadow: 0px 0px 0px 6px rgba(232, 232, 232, 0.5);
+}
+
+section div:first-child {
+  background-image: url(./images/white-box.jpg);
+  background-size: 305%;
+  background-position: center center;
+}
+section div:nth-child(2) {
+  background-image: url(./images/room.jpg);
+  background-position: left center;
+  padding: 0 1rem;
+}
+section div:nth-child(3) {
+  background-image: url(./images/black-white.jpg);
+  background-size: 400px;
+}
+
+footer {
+  margin-top: 2rem;
+  text-align: center;
+  color: gray;
+  font-size: 1.5rem;
+}
